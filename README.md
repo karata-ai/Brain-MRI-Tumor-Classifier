@@ -23,6 +23,18 @@ The model is trained to distinguish between four categories:
 ### Internal Test (Nickparvar dataset, clean split)
 - **Accuracy:** 98.0%  
 - Balanced performance across all four classes  
+          Classification report:
+              precision    recall  f1-score   support
+
+      glioma       1.00      0.97      0.98       300
+  meningioma       0.96      0.95      0.96       306
+     notumor       0.97      1.00      0.99       405
+   pituitary       0.99      1.00      0.99       300
+
+    accuracy                           0.98      1311
+   macro avg       0.98      0.98      0.98      1311
+weighted avg       0.98      0.98      0.98      1311
+
 
 ### External Test (BRISC 2025 dataset)
 - **Accuracy:** 93.7%  
