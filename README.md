@@ -47,7 +47,7 @@ The model is trained to distinguish between four categories:
 ## 📈 Performance Visualization
 | Training Loss & Validation Accuracy | Confusion Matrix | Grad-CAM |
 |-------------------------------------|------------------|----------|
-| ![loss_acc](loss_accuracy.png) | ![cm](reports/confusion_matrix.png) | ![gradcam](gradcam_samples/gradcam_0_glioma_pred-glioma.png) |
+| ![loss_acc](loss_accuracy.png) | ![cm](confusion_matrix.png) | ![gradcam](gradcam_samples/gradcam_0_glioma_pred-glioma.png) |
 
 ---
 
