@@ -50,6 +50,8 @@ The model is trained to distinguish between four categories:
 
 ![cm](confusion_matrix.png)
 
+![gradcam](gradcam_samples/gradcam_0_glioma_pred-glioma.png)
+
 ---
 
 ## ⚙️ Technical Details
